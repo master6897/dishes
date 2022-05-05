@@ -12,6 +12,9 @@ const StyledSection = styled.section`
   justify-content: center;
   width: 100%;
   min-height: 90vh;
+  @media (max-width: 400px) {
+    padding: 1rem 0;
+  }
 `;
 
 const FormContainer = () => {
